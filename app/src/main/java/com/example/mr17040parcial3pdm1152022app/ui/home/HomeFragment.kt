@@ -41,7 +41,7 @@ class HomeFragment : Fragment() {
         btn_test.setOnClickListener{
             Fuel.get(
                 "http://pdm-115.duckdns.org/conductor/",
-                listOf("licencia" to textView.text, "nombre" to textView2.text, "edad" to textView3.text, "estado_civil" to textView4, "tipo_licencia" to textView5)
+                listOf("licencia" to textView.text, "nombre" to textView2.text, "edad" to textView3.text, "estado_civil" to textView4.text, "tipo_licencia" to textView5.text)
             ).responseJson { _, _, result ->
                 when (result) {
                     is Result.Failure -> {
