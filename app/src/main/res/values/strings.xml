@@ -7,7 +7,25 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Conductor</string>
+    <string name="menu_gallery">Vehiculo</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="ingresar_nota">Ingresar Nota</string>
+    <string name="promedio_notas">Promedio de Notas</string>
+    <string name="numero_texto">Número a texto</string>
+    <string name="ingresa_digito">Ingresa un dígito entre 0 y 9</string>
+    <string name="convertir">Convertir</string>
+    <string name="ingresa_carnet_info">Ingrese el carnet del alumno</string>
+    <string name="obtener_promedio">Obtener promedio</string>
+    <string name="no_alumno">No se encontró alumno con ese carnet</string>
+    <string name="guardar">Guardar</string>
+    <string name="carnet">Carnet</string>
+    <string name="cod_materia">Cód. Materia</string>
+    <string name="ciclo">Ciclo</string>
+    <string name="nota">Nota</string>
+    <string name="ws_exito">Web Service ejecutado con éxito</string>
+    <string name="error">Error</string>
+    <string name="ws_error">Error al ejecutar web service</string>
+
 </resources>
